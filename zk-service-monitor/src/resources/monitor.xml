@@ -1,0 +1,29 @@
+<root>
+    <monitor-item>
+        <title>kafka-strom-perf集群</title>
+        <service>kafka broker</service>
+        <zkhost>192.168.108.50:2181</zkhost>
+        <znode>/kafka/brokers/ids</znode>
+        <type>update,delete</type>
+        <contacts>15810015792</contacts>
+        <msg>发现被删除的节点#DEL_NODES#;新增节点#NEW_NODES#</msg>
+    </monitor-item>
+    <monitor-item>
+        <title>kafka-strom-perf集群</title>
+        <service>kafka broker</service>
+        <zkhost>192.168.108.50:2181</zkhost>
+        <znode>/kafka/consumers</znode>
+        <type>update,delete</type>
+        <contacts>15810015792</contacts>
+        <msg>发现被删除的节点#DEL_NODES#;新增节点#NEW_NODES#</msg>
+    </monitor-item>
+    <monitor-item>
+        <title>kafka-strom-perf集群</title>
+        <service>kafka broker</service>
+        <zkhost>192.168.108.50:2181</zkhost>
+        <znode>/test/testnodes</znode>
+        <type>update,delete</type>
+        <contacts>15810015792,18311332798</contacts>
+        <msg>发现被删除的节点#DEL_NODES#;新增节点#NEW_NODES#</msg>
+    </monitor-item>
+</root>

@@ -1,1 +1,23 @@
 # zk-server-monitor
+该项目用于监控zk的node节点变化，并实时发短信报警。
+通过如下配置文件来进行监控项的监控。
+<root>
+    <monitor-item>
+        <zkhost></zkhost>
+        <znode></znode>
+        <type></type>
+        <contacts></contacts>
+    </monitor-item>
+    <monitor-item>
+        <zkhost></zkhost>
+        <znode></znode>
+        <type></type>
+        <contacts></contacts>
+    </monitor-item>
+    <monitor-item>
+        <zkhost></zkhost>
+        <znode></znode>
+        <type></type>
+        <contacts></contacts>
+    </monitor-item>
+<root>

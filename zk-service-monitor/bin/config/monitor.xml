@@ -1,0 +1,67 @@
+<root>
+    <monitor-item>
+        <title>kafka-strom-perf集群</title>
+        <service>kafka broker</service>
+        <zkhost>sdf-nimbus-perf:31818,10-149-11-231:31818,10-149-11-236:31818</zkhost>
+        <znode>/sdf-kafka-perf/brokers/ids</znode>
+        <type>update,delete</type>
+        <contacts>15810015792,18311332798</contacts>
+        <msg>发现被删除的节点#DEL_NODES#;新增节点#NEW_NODES#</msg>
+    </monitor-item>
+    <monitor-item>
+        <title>kafka-strom-perf集群</title>
+        <service>storm supervisor</service>
+        <zkhost>sdf-nimbus-perf:31818,10-149-11-231:31818,10-149-11-236:31818</zkhost>
+        <znode>/sdf-storm-perf/supervisors</znode>
+        <type>update,delete</type>
+        <contacts>15810015792,18311332798</contacts>
+        <msg>发现被删除的节点#DEL_NODES#;新增节点#NEW_NODES#</msg>
+    </monitor-item>
+    <monitor-item>
+        <title>kafka-strom-perf集群</title>
+        <service>testNodes</service>
+        <zkhost>sdf-nimbus-perf:31818,10-149-11-231:31818,10-149-11-236:31818</zkhost>
+        <znode>/test/testnodes3</znode>
+        <type>update,delete</type>
+        <contacts>15810015792,18311332798</contacts>
+        <msg>发现被删除的节点#DEL_NODES#;新增节点#NEW_NODES#</msg>
+    </monitor-item>
+    
+    <monitor-item>
+        <title>kafka-strom-user-action2集群</title>
+        <service>kafka broker</service>
+        <zkhost>10-149-13-69:31818,10-149-13-72:31818,10-149-13-76:31818,10-149-13-70:31818,10-149-13-71:31818</zkhost>
+        <znode>/kafka_user_action2/brokers/ids</znode>
+        <type>update,delete</type>
+        <contacts>15810015792,18311332798</contacts>
+        <msg>发现被删除的节点#DEL_NODES#;新增节点#NEW_NODES#</msg>
+    </monitor-item>
+    <monitor-item>
+        <title>kafka-strom-user-action2集群</title>
+        <service>strom supervisor</service>
+        <zkhost>10-149-13-69:31818,10-149-13-72:31818,10-149-13-76:31818,10-149-13-70:31818,10-149-13-71:31818</zkhost>
+        <znode>/storm_user_action2/supervisors</znode>
+        <type>update,delete</type>
+        <contacts>15810015792,18311332798</contacts>
+        <msg>发现被删除的节点#DEL_NODES#;新增节点#NEW_NODES#</msg>
+    </monitor-item>
+    
+    <monitor-item>
+        <title>kafka-strom-user-action集群</title>
+        <service>kafka broker</service>
+        <zkhost>sdf-spark-master1:31818,sdf-spark-master2:31818,sdf-resourcemanager1:31818,sdf-resourcemanager2:31818,sdf-logserver:31818</zkhost>
+        <znode>/sdf-kafka-user-action/brokers/ids</znode>
+        <type>update,delete</type>
+        <contacts>15810015792,18311332798,15801342789</contacts>
+        <msg>发现被删除的节点#DEL_NODES#;新增节点#NEW_NODES#</msg>
+    </monitor-item>
+    <monitor-item>
+        <title>kafka-strom-user-action集群</title>
+        <service>strom supervisor</service>
+        <zkhost>sdf-spark-master1:31818,sdf-spark-master2:31818,sdf-resourcemanager1:31818,sdf-resourcemanager2:31818,sdf-logserver:31818</zkhost>
+        <znode>/sdf-storm-user-action/supervisors</znode>
+        <type>update,delete</type>
+        <contacts>15810015792,18311332798,15801342789</contacts>
+        <msg>发现被删除的节点#DEL_NODES#;新增节点#NEW_NODES#</msg>
+    </monitor-item>
+</root>
